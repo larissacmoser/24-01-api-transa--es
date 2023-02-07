@@ -1,0 +1,2 @@
+GET /user/:userId/transactions/:id: A rota deverá retornar uma única
+transação cadastrada previamente
