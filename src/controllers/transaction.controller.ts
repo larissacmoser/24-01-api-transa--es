@@ -165,7 +165,6 @@ export class TransactionController {
       }
       const database = new UsersDatabase();
       let myUser = database.get(userId);
-      console.log(myUser);
       if (!myUser) {
         return res.status(404).send({
           ok: false,
